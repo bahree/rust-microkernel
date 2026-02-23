@@ -1,0 +1,14 @@
+[build]
+# We keep this repo multi-target. Scripts set the right target explicitly.
+
+[target.x86_64-unknown-none]
+rustflags = [
+  "-C", "relocation-model=static",
+]
+
+[target.aarch64-unknown-none]
+rustflags = [
+  "-C", "relocation-model=static",
+]
+
+

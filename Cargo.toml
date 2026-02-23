@@ -1,0 +1,26 @@
+[workspace]
+resolver = "2"
+members = [
+  "crates/kernel",
+  "crates/hal",
+  "crates/arch_x86_64",
+  "crates/arch_aarch64_rpi",
+  "crates/arch_aarch64_virt",
+  "xtask",
+]
+
+[workspace.package]
+edition = "2021"
+license = "MIT OR Apache-2.0"
+authors = ["desigeek"]
+
+[workspace.dependencies]
+spin = "0.9"
+volatile = "0.6"
+uart_16550 = "0.3"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
