@@ -70,7 +70,7 @@ The blog series focuses on the AArch64 QEMU virt platform so anyone with a lapto
 
 ## Building From Source
 
-See [Part 1 of the blog series](https://blog.desigeek.com/post/2026/02/building-microkernel-part1/) for detailed build instructions.
+See [Part 1 of the blog series](https://blog.desigeek.com/post/2026/02/building-microkernel-part1-foundations-boot/) for detailed build instructions.
 
 **Prerequisites**:
 - Rust nightly: `rustup default nightly`

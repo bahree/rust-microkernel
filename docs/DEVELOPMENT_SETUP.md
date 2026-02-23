@@ -433,8 +433,8 @@ Before submitting code or creating releases, verify:
 ## Next Steps
 
 Once setup is complete:
-1. Read [Part 0: Why build an OS from scratch?](https://blog.desigeek.com/post/2026/02/building-microkernel-part0/) for the big picture
-2. Follow [Part 1: Foundations](https://blog.desigeek.com/post/2026/02/building-microkernel-part1/) to understand boot
+1. Read [Part 0: Why build an OS from scratch?](https://blog.desigeek.com/post/2026/02/building-microkernel-part0-why-build-an-os/) for the big picture
+2. Follow [Part 1: Foundations](https://blog.desigeek.com/post/2026/02/building-microkernel-part1-foundations-boot/) to understand boot
 3. Continue with Parts 2-4, building incrementally
 4. Use git tags to jump to specific checkpoints: `git checkout v0.1-boot`
 5. Experiment with code changes and rebuild

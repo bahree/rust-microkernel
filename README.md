@@ -141,32 +141,32 @@ We skip filesystems, networking, user mode, multicore, and security hardening. T
 
 Comprehensive **5-part tutorial series** covering OS fundamentals from motivation to virtual memory:
 
-**[Part 0: Why build an OS from scratch?](https://blog.desigeek.com/post/2026/02/building-microkernel-part0/)**
-- Series overview, motivation, and roadmap
+**[Part 0: Why build an OS from scratch?](https://blog.desigeek.com/post/2026/02/building-microkernel-part0-why-build-an-os/)**
+- Series overview, motivation, and why Rust
 - What we're building and why AArch64 QEMU virt
-- The big picture: complete OS architecture
-- Prerequisites, quick start, and how to use the series
+- Getting started: setup, build, run all demos
+- The big picture: complete OS architecture and series roadmap
 
-**[Part 1: Foundations - Boot and platform abstraction](https://blog.desigeek.com/post/2026/02/building-microkernel-part1/)**
+**[Part 1: Foundations - Boot and platform abstraction](https://blog.desigeek.com/post/2026/02/building-microkernel-part1-foundations-boot/)**
 - EL2 to EL1 drop, stack setup, BSS zeroing
 - PL011 UART: talking to hardware via MMIO
 - Platform-agnostic kernel and HAL abstraction
 - ARM assembly primer and linker scripts
 
-**[Part 2: Communication - IPC and cooperative scheduling](https://blog.desigeek.com/post/2026/03/building-microkernel-part2/)**
+**[Part 2: Communication - IPC and cooperative scheduling](https://blog.desigeek.com/post/2026/03/building-microkernel-part2-communication-ipc/)**
 - Message-passing IPC (vs shared memory)
 - Mailbox router with backpressure
 - Task abstraction and trait-based design
 - Cooperative scheduling (round-robin)
 - Ping/Pong demo showing communication
 
-**[Part 3: Concurrency - Interrupts, timers and preemption](https://blog.desigeek.com/post/2026/03/building-microkernel-part3/)**
+**[Part 3: Concurrency - Interrupts, timers and preemption](https://blog.desigeek.com/post/2026/03/building-microkernel-part3-concurrency-preemption/)**
 - ARM Generic Timer and GIC architecture
 - Exception vector table and IRQ handling
 - Preemptive multitasking with full context switching
 - Thread A/B demo proving preemption works
 
-**[Part 4: Memory management and beyond](https://blog.desigeek.com/post/2026/03/building-microkernel-part4/)**
+**[Part 4: Memory management and beyond](https://blog.desigeek.com/post/2026/03/building-microkernel-part4-memory-mmu/)**
 - Physical frame allocator (bump allocator for 4KB pages)
 - 4-level page tables and descriptor format
 - MMU configuration (TCR_EL1, MAIR_EL1, TTBR0_EL1)
