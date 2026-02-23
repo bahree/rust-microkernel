@@ -344,8 +344,3 @@ Free to use for learning, teaching, or building upon.
 - **Rust embedded working group** - Excellent bare-metal tooling
 - **ARM** - Comprehensive architecture documentation
 
-## Contact and support
-
-- **GitHub Issues**: [Report bugs or ask questions](https://github.com/bahree/rust-microkernel/issues)
-- **GitHub Discussions**: [General discussion and Q&A](https://github.com/bahree/rust-microkernel/discussions)
-- **Blog**: [blog.desigeek.com](https://blog.desigeek.com/) (5-part tutorial series)
