@@ -148,7 +148,7 @@ Comprehensive **5-part tutorial series** covering OS fundamentals from motivatio
 - Getting started: setup, build, run all demos
 - The big picture: complete OS architecture and series roadmap
 
-**Part 1: Foundations - Boot and platform abstraction** (coming soon)
+**[Part 1: Foundations - Boot and platform abstraction](https://blog.desigeek.com/post/2026/02/building-microkernel-part1-foundations-boot/)**
 - EL2 to EL1 drop, stack setup, BSS zeroing
 - PL011 UART: talking to hardware via MMIO
 - Platform-agnostic kernel and HAL abstraction
@@ -332,4 +332,3 @@ Free to use for learning, teaching, or building upon.
 - **OSDev community** - Invaluable wiki and forum support
 - **Rust embedded working group** - Excellent bare-metal tooling
 - **ARM** - Comprehensive architecture documentation
-
