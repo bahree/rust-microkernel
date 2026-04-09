@@ -154,20 +154,20 @@ Comprehensive **5-part tutorial series** covering OS fundamentals from motivatio
 - Platform-agnostic kernel and HAL abstraction
 - ARM assembly primer and linker scripts
 
-**Part 2: Communication - IPC and cooperative scheduling** (coming soon)
+**[Part 2: Communication - IPC and cooperative scheduling](https://blog.desigeek.com/post/2026/03/building-microkernel-part2-communication-ipc/)**
 - Message-passing IPC (vs shared memory)
 - Mailbox router with backpressure
 - Task abstraction and trait-based design
 - Cooperative scheduling (round-robin)
 - Ping/Pong demo showing communication
 
-**Part 3: Concurrency - Interrupts, timers and preemption** (coming soon)
+**[Part 3: Concurrency - Interrupts, timers and preemption](https://blog.desigeek.com/post/2026/03/building-microkernel-part3-concurrency-preemption/)**
 - ARM Generic Timer and GIC architecture
 - Exception vector table and IRQ handling
 - Preemptive multitasking with full context switching
 - Thread A/B demo proving preemption works
 
-**Part 4: Memory management and beyond** (coming soon)
+**[Part 4: Memory management and beyond](https://blog.desigeek.com/post/2026/04/building-microkernel-part4-memory-mmu/)**
 - Physical frame allocator (bump allocator for 4KB pages)
 - 4-level page tables and descriptor format
 - MMU configuration (TCR_EL1, MAIR_EL1, TTBR0_EL1)
